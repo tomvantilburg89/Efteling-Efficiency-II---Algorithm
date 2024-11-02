@@ -43,6 +43,7 @@
         {
             Status = (Risks) new Random().Next(randNo);
         }
+
         public Risks GetStatus()
         {
             return Status;
