@@ -81,19 +81,18 @@ namespace Park
                 Console.WriteLine(new string(' ', Console.WindowWidth * 2));
                 Console.SetCursorPosition(0, 2);
                 Console.WriteLine(ride.Name);
+
                 foreach (Visitor visitor in Efteling.Visitors)
                 {
                     Console.SetCursorPosition(0, 4);
 
                     Console.ForegroundColor = ConsoleColor.White;
+
                     if (visitor.IsHighRisk() && ride.IsHighRisk())
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                     }
-                    else
-                    {
-                        //Console.ForegroundColor = ConsoleColor.Green;
-                    }
+
                     Console.WriteLine("Name: " + visitor.Name);
                     Console.WriteLine("Age: " + visitor.Age);
                     String foodPreference = "Food: Green   ";

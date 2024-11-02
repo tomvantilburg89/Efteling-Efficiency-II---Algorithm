@@ -13,8 +13,8 @@ namespace Visitors
         
         public Visitor()
         {
-            Name = Support.FakeName();
-            Age = Support.FakeAge();
+            Name = FakeName();
+            Age = FakeAge();
         }
 
         public new bool IsHighRisk()
