@@ -26,7 +26,7 @@
         {
             int amountRides = 30;
 
-            //for (int rides = 0;  rides < amountRides; int++)
+            //for (int rides = 0;  rides < amountRides; rides++)
             //{
             //    if (rides % 3 == 0) Rides.Add(new RollerCoaster());
             //}
